@@ -1,0 +1,149 @@
+main {
+  height: 1360px;
+  width: 1440px;
+  margin: -30px auto 0;
+  background-color: #fff;
+}
+main .content {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+.content .left {
+  width: 682px;
+  height: 100%;
+  padding: 25px 20px 0 4px;
+  border-right: 2px solid #ddd;
+  float: left;
+}
+.left-cell {
+  width: 662px;
+  height: 180px;
+  padding: 20px 0px;
+  border-top: 1px solid #ddd;
+}
+.left-cell:nth-child(7) {
+  border-bottom: 1px solid #ddd;
+}
+.left-cell > img {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+}
+.left-text h3 a {
+  font-weight: normal;
+  color: #333;
+} 
+.left-text h3 a:hover {
+  text-decoration: underline;
+}
+.left-text p {
+  margin: 20px 10px 20px 0;
+  font-size: 13px;
+  font-weight: 100;
+}
+.left-text span {
+  font-size: 13px;
+  font-weight: 100;
+}
+.left-text span:first-of-type {
+  margin-right: 54px;
+  color: #36678d;
+}
+.left-text span img {
+  vertical-align: text-bottom;
+  margin-left: 8px;
+}
+/*分页按钮*/
+.pagination {
+  margin-top: 20px;
+  font-size: 0;
+}
+.pagination a {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  font-size: 12px;
+  line-height: 27px;
+  text-align: center;
+  margin-right: 8px;
+  border: 1px solid #949494;
+  border-radius: 4px;
+}
+.pagination a:first-child, a:last-child {
+  width: 50px;
+}
+.pagination a.active {
+  background-color: #0388d5;
+  color: #fff;
+  border-color: #0265a4;
+}
+.pagination a.active:hover {
+  cursor: text;
+}
+
+.content .right {
+  width: 318px;
+  height: 100%;
+  float: left;
+}
+.content .right h3 {
+  font-weight: normal;
+  width: 90px;
+  margin: 25px 0 0 10px;
+  position: relative;
+  border-bottom: 1px solid #000;
+}
+/*上方div*/
+.content .right .right-block1 {
+  height: 103px;
+  border-bottom: 1px dashed #ddd;
+  padding: 20px 0 0;
+  margin-left: 11px;
+  margin-right: 5px;
+  font-size: 13px;
+    
+}
+.right-block1:first-of-type, .right-block2:nth-last-child(5) {
+  border-top: 1px solid #ddd;
+  margin-top: -1px;
+}
+.content .right .right-block1:nth-of-type(5) {
+  border-bottom: none;
+}
+.content .right .right-block1 img {
+  float: left;
+  margin-right: 14px;
+  border: 1px solid #ddd;
+}
+/*下方div*/
+.right-block2 {
+  height: 63px;
+  width: 316px;
+  border-bottom: 1px dashed #ddd;
+  margin-left: 11px;
+  padding: 15px 10px 0;
+  font-size: 13px;
+}
+.right-block2 span:first-child {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  color: white;
+  background-color: #cc2b33;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.right-block2 span.num {
+  background-color: #a1a1a1;
+}
+.right-block2 span:last-child {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  line-height: 14px;
+  color: #999;
+}
+/**********************中间内容end**********************/

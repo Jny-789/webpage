@@ -1,0 +1,56 @@
+main {
+  height: 1144px;
+  width: 1440px;
+  margin: -30px auto 0;
+  background-color: #fff;
+}
+main .content {
+  width: 1000px;
+  height: 1144px;
+  margin: 0 auto;
+}
+.content .top {
+  height: 61px;
+  width: 100%;
+  border-bottom: 1.7px dashed #ccc;
+  line-height: 61px;
+}
+.content .top img {
+  vertical-align: middle;
+  margin: auto 10px auto 2px;
+}
+.content .top span {
+  font-size: 24px;
+  vertical-align: middle;
+}
+.content .top span:last-child {
+  font-size: 14px;
+  position: relative;
+  top: 5px;
+}
+/*模板容器*/
+.content .container {
+  display: flex;
+  width: 100%;
+  height: 1083px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.ct-cell {
+  margin-top: 24px;
+  height: 228px;
+  font-family: SimSun;
+}
+.ct-cell:not(:nth-child(4n)) {
+  margin-right: 16px;
+}
+.ct-cell p {
+  font-size: 15px;
+  margin: 15px 0 8px;
+}
+.ct-cell .p-2 {
+  font-size: 13px;
+  color: #999;
+  margin: 5px 0;
+}
+/**********************中间内容end**********************/

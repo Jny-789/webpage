@@ -1,0 +1,117 @@
+main {
+  height: 1143px;
+  width: 1440px;
+  margin: -30px auto 0;
+  background-color: #fff;
+  padding: 0 220px;
+}
+main .left {
+  float: left;
+  width: 682px;
+  height: 997px;
+  padding: 0 20px 0 2px;
+  border-right: 2px solid #ddd;
+}
+.left .top {
+  width: 100%;
+  height: 24px;
+  border-bottom: 1px #e9e9e9 solid;
+}
+article {
+  padding: 0 40px 0 5px;
+  font-family: SimSun;
+}
+article h2 {
+  line-height: 55px;
+  font-size: 22px;
+}
+article span {
+  font-size: 13px;
+  color: #666;
+}
+article span:first-of-type {
+  color:#36678d;
+  margin-right: 10px;
+}
+article span:last-of-type {
+  float: right;
+  color: #7e7e7e;
+  position: relative;
+}
+article span > a {
+  position: absolute;
+  left: 18px;
+}
+article > img {
+  margin: 33px 0;
+}
+article p {
+  text-indent: 25px;
+  margin-bottom: 30px;
+  line-height: 28px;
+  font-size: 15px;
+}
+.right {
+  width: 318px;
+  height: 100%;
+  float: left;
+}
+.right h3 {
+  font-weight: normal;
+  width: 90px;
+  margin: 25px 0 0 10px;
+  position: relative;
+  border-bottom: 1px solid #000;
+}
+/*上方div*/
+.right .right-block1 {
+  height: 103px;
+  border-bottom: 1px dashed #ddd;
+  padding: 20px 0 0;
+  margin-left: 11px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.right-block1:first-of-type, .right-block2:nth-last-child(5){
+  border-top: 1px solid #ddd;
+  margin: -1px;
+}
+.right .right-block1:nth-of-type(5) {
+  border-bottom: none;
+}
+.right .right-block1 img {
+  float: left;
+  margin-right: 14px;
+  border: 1px solid #ddd;
+}
+/*下方div*/
+.right-block2 {
+  height: 63px;
+  width: 316px;
+  border-bottom: 1px dashed #ddd;
+  margin-left: 11px;
+  padding: 15px 10px 0;
+  font-size: 13px;
+}
+.right-block2 span:first-child {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  color: white;
+  background-color: #cc2b33;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.right-block2 span.num {
+  background-color: #a1a1a1;
+}
+.right-block2 span:last-child {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  line-height: 14px;
+  color: #999;
+}
+/**********************中间内容end**********************/
